@@ -20,7 +20,7 @@
   * [Cryptographic functions](coding-in-symbolic/standard-library/cryptographic-functions.md)
 * [Cardano Type Library](coding-in-symbolic/cardano-type-library/README.md)
   * [Script Type Signature](coding-in-symbolic/cardano-type-library/script-type-signature.md)
-  * [Script Context](coding-in-symbolic/cardano-type-library/script-context.md)
+  * [Transaction type](coding-in-symbolic/cardano-type-library/transaction-type.md)
 
 ## Symbolic Smart Contracts
 
