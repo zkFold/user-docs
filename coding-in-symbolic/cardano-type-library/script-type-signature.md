@@ -1,3 +1,0 @@
-# Script Type Signature
-
-WIP
