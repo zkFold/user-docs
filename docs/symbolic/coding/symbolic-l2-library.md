@@ -1,0 +1,1 @@
+# Symbolic Layer 2 Type Library

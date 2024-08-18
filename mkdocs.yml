@@ -1,0 +1,107 @@
+copyright: Copyright &copy; 2024 <a href="https://zkfold.io" target="_blank" rel="noopener">zkFold SA</a>
+site_name: "zkFold Products User Documentation"
+site_url: https://docs.zkfold.io
+repo_url: https://github.com/zkFold
+repo_name: zkFold's GitHub
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - toc.follow
+    # - toc.integrate
+    - navigation.top
+    # - header.autohide
+    # - announce.dismiss
+    - navigation.footer
+    - search
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent:  orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: white
+      accent:  orange
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  language: en
+
+extra:
+  # generator: false
+  social:
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/zkFold
+      name: zkFold's X Account
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/zkFold
+      name: zkFold's LinkedIn Page
+    - icon: fontawesome/brands/github
+      link: https://github.com/zkFold
+      name: zkFold's GitHub
+  alternate:
+    - name: English
+      link: /
+      lang: en
+
+plugins:
+  - social
+  - search
+
+nav:
+  - zkFold: 'index.md'
+  - Symbolic:
+    - Introduction:
+      - "What is Symbolic?": symbolic/introduction/what-is-symbolic.md
+      - "Key Features": symbolic/introduction/key-features.md
+      - "Use Cases": symbolic/introduction/use-cases.md
+      - "Tool stack": symbolic/introduction/tool-stack.md
+    - "Coding in Symbolic":
+      - "Getting Started": symbolic/coding/getting-started.md
+      - "Language Fundamentals":
+          - "Language Fundamentals": symbolic/coding/fundamentals/index.md
+          - "Basic Types": symbolic/coding/fundamentals/basic-types.md
+          - "Custom Types": symbolic/coding/fundamentals/custom-types.md
+          - "Symbolic Compiler": symbolic/coding/fundamentals/compiler.md
+      - "Standard Library": symbolic/coding/standard-library.md
+      - "Cardano Library":
+        - "Cardano Library": symbolic/coding/cardano-library/index.md
+        - "Transaction Type": symbolic/coding/cardano-library/transaction-type.md
+        - "Script Type Signature": symbolic/coding/cardano-library/script-type-signature.md
+      - "Symbolic Layer 2 Libarary": symbolic/coding/symbolic-l2-library.md
+    - "ZK Smart Contracts":
+      - "Basics": symbolic/zk-smart-contracts/basics.md
+      - "Building Transactions": symbolic/zk-smart-contracts/building-transactions.md
+      - "Composing Contracts": symbolic/zk-smart-contracts/composing-contracts.md
+      - "Cardano": symbolic/zk-smart-contracts/cardano.md
+      - "Symbolic Ledger": symbolic/zk-smart-contracts/symbolic-ledger.md
+  - "L2 Solutions":
+    - "L2 Solutions": 'L2/index.md'
+    - Rollup: 'L2/rollup.md'
+    - Sidechain: 'L2/sidechain.md'
+  - "Smart Contracts":
+    - "Smart Contracts": smart-contracts/index.md
+    - "Wallet Backend": smart-contracts/wallet-backend.md
+    - "P2P On-ramp": smart-contracts/p2p-on-ramp.md
+    - "zkPass Verifier": smart-contracts/zkpass.md
