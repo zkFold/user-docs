@@ -1,1 +1,0 @@
-# P2P fiat-to-crypto on-ramp application

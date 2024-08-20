@@ -14,8 +14,8 @@ theme:
     - navigation.instant.preview
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
+    # - navigation.sections
+    # - navigation.expand
     - navigation.path
     - navigation.indexes
     - toc.follow
@@ -70,7 +70,9 @@ plugins:
   - search
 
 nav:
-  - zkFold: 'index.md'
+  - zkFold:
+    - Products: 'products.md'
+    - About: 'about.md'
   - Symbolic:
     - Introduction:
       - "What is Symbolic?": symbolic/introduction/what-is-symbolic.md
@@ -79,29 +81,30 @@ nav:
       - "Tool stack": symbolic/introduction/tool-stack.md
     - "Coding in Symbolic":
       - "Getting Started": symbolic/coding/getting-started.md
-      - "Language Fundamentals":
-          - "Language Fundamentals": symbolic/coding/fundamentals/index.md
-          - "Basic Types": symbolic/coding/fundamentals/basic-types.md
-          - "Custom Types": symbolic/coding/fundamentals/custom-types.md
-          - "Symbolic Compiler": symbolic/coding/fundamentals/compiler.md
-      - "Standard Library": symbolic/coding/standard-library.md
-      - "Cardano Library":
-        - "Cardano Library": symbolic/coding/cardano-library/index.md
-        - "Transaction Type": symbolic/coding/cardano-library/transaction-type.md
-        - "Script Type Signature": symbolic/coding/cardano-library/script-type-signature.md
-      - "Symbolic Layer 2 Libarary": symbolic/coding/symbolic-l2-library.md
-    - "ZK Smart Contracts":
-      - "Basics": symbolic/zk-smart-contracts/basics.md
-      - "Building Transactions": symbolic/zk-smart-contracts/building-transactions.md
-      - "Composing Contracts": symbolic/zk-smart-contracts/composing-contracts.md
-      - "Cardano": symbolic/zk-smart-contracts/cardano.md
-      - "Symbolic Ledger": symbolic/zk-smart-contracts/symbolic-ledger.md
+      - "Basic Types": symbolic/coding/basic-types.md
+      - "Custom Types": symbolic/coding/custom-types.md
+      - "Compiler": symbolic/coding/compiler.md
+    - "Smart Contracts":
+      - "Basics": symbolic/smart-contracts/basics.md
+      - "Building Transactions": symbolic/smart-contracts/building-transactions.md
+      - "Composing Contracts": symbolic/smart-contracts/composing-contracts.md
+      - "Cardano":
+        - "Cardano": symbolic/smart-contracts/cardano/index.md
+        - "Transaction Type": symbolic/smart-contracts/cardano/transaction-type.md
+        - "Script Type Signature": symbolic/smart-contracts/cardano/script-type-signature.md
+      - "Symbolic Ledger": symbolic/smart-contracts/symbolic-ledger.md
+    - "Tools":
+      - "Symbolic CLI": symbolic/tools/cli.md
+      - "Circom Converter": symbolic/tools/circom-converter.md
+      - "UPLC Converter": symbolic/tools/uplc-converter.md
   - "L2 Solutions":
     - "L2 Solutions": 'L2/index.md'
     - Rollup: 'L2/rollup.md'
     - Sidechain: 'L2/sidechain.md'
-  - "Smart Contracts":
-    - "Smart Contracts": smart-contracts/index.md
-    - "Wallet Backend": smart-contracts/wallet-backend.md
-    - "P2P On-ramp": smart-contracts/p2p-on-ramp.md
-    - "zkPass Verifier": smart-contracts/zkpass.md
+  - "Other zkApps":
+    - "Other zkApps": other-zkapps/index.md
+    - "Mithril Bridge": other-zkapps/mithril-bridge.md
+    - "Wallet Backend": other-zkapps/wallet-backend.md
+    - "ZK-KYC Protocol": other-zkapps/zk-kyc.md
+    - "zkPass Verifier": other-zkapps/zkpass.md
+    - "P2P On-Ramp": other-zkapps/p2p-on-ramp.md
