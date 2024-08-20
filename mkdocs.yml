@@ -18,6 +18,7 @@ theme:
     # - navigation.expand
     - navigation.path
     - navigation.indexes
+    - toc
     - toc.follow
     # - toc.integrate
     - navigation.top
@@ -66,6 +67,11 @@ extra:
       link: /
       lang: en
 
+markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 3
+
 plugins:
   - social
   - search
@@ -75,11 +81,7 @@ nav:
     - Products: 'products.md'
     - About: 'about.md'
   - Symbolic:
-    - Introduction:
-      - "What is Symbolic?": symbolic/introduction/what-is-symbolic.md
-      - "Key Features": symbolic/introduction/key-features.md
-      - "Use Cases": symbolic/introduction/use-cases.md
-      - "Tool stack": symbolic/introduction/tool-stack.md
+    - Introduction: symbolic/introduction.md
     - "Coding in Symbolic":
       - "Getting Started": symbolic/coding/getting-started.md
       - "Basic Types": symbolic/coding/basic-types.md
