@@ -50,6 +50,7 @@ theme:
 
 extra:
   # generator: false
+  homepage: https://docs.zkfold.io/products
   social:
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/zkFold

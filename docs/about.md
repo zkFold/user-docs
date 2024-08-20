@@ -1,11 +1,7 @@
 # About zkFold
 
-zkFold is developing Layer 1 and Layer 2 scaling solutions for truly global adoption of distributed ledger technology (DLT). To achieve this goal, we base our products on state-of-the-art zero knowledge proof (ZKP) algorithms.
+zkFold is developing scaling solutions for blockchains, zero knowledge proof (ZKP) infrastructure and development tools. To achieve this goal, we use novel approaches to distributed system design and base our products on state-of-the-art ZKP algorithms.
 
-Our first product, zkFold Symbolic smart contracts, is primarily launching on Cardano with possible extensions to other blockchains.
+Our core team consists of talented developers and researchers who are passionate about distributed ledger technology (DLT) and zero knowledge cryptography. The team's expertise spans a wide range of fields, including cryptography, formal methods, game theory, distributed systems, and programming languages.
 
-Our upcoming Layer 2 scalable DLT will be based on a new consensus algorithm of our own design. With its key characteristics being very high throughput, almost instant finality, and extremely low hardware requirements for nodes, we aim to elevate the scalability of smart contract blockchains to another level.
-
-- zkFold products attack all scalability bottlenecks: compute, storage, and network throughput;
-- zkFold Symbolic enables complex smart contracts with low fees on L1;
-- zkFold DLT takes full advantage of client-side computing and advancements in consensus and ZK algorithms to deliver unmatched performance.
+Contact email: <info@zkfold.io>.
