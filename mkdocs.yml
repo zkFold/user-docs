@@ -86,15 +86,13 @@ nav:
       - "Getting Started": symbolic/coding/getting-started.md
       - "Basic Types": symbolic/coding/basic-types.md
       - "Custom Types": symbolic/coding/custom-types.md
-      - "Compiler": symbolic/coding/compiler.md
+      - "DSL": symbolic/coding/DSL.md
     - "Smart Contracts":
       - "Basics": symbolic/smart-contracts/basics.md
-      - "Building Transactions": symbolic/smart-contracts/building-transactions.md
-      - "Composing Contracts": symbolic/smart-contracts/composing-contracts.md
       - "Cardano":
         - "Cardano": symbolic/smart-contracts/cardano/index.md
-        - "Transaction Type": symbolic/smart-contracts/cardano/transaction-type.md
-        - "Script Type Signature": symbolic/smart-contracts/cardano/script-type-signature.md
+        - "Contract Type Signature": symbolic/smart-contracts/cardano/contract-type-signature.md
+        - "Transactions": symbolic/smart-contracts/cardano/transactions.md
       - "Symbolic Ledger": symbolic/smart-contracts/symbolic-ledger.md
     - "Tools":
       - "Symbolic CLI": symbolic/tools/cli.md

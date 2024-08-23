@@ -1,1 +1,1 @@
-# Zero Knowledge Smart Contracts on Symbolic Ledger
+# Symbolic L2 Ledger Type Library
