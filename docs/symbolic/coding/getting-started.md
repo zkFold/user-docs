@@ -6,11 +6,11 @@ zkFold Symbolic uses the Haskell type system to distinguish arithmetizable compu
 
 A sufficient condition for a function to be arithmetizable is that all its arguments and the return value belong to the class `SymbolicData c`. Our Standard Library provides a collection of basic types with instances of `SymbolicData c`. Basic types are covered on [the next page](basic-types.md) of this documentation. Oftentimes, when building on top of those basic types, developers can derive instances of `SymbolicData c` for their custom types. We will discuss custom type implementation on the [Custom Types page](custom-types.md).
 
-## Framework Overview
+<!-- ## Framework Overview
 
 ### zkFold Symbolic Base
 #### Haskell tools
-Use the full power of GHC and the Haskell toolstack when developing your zk-enhanced applications.
+Use the full power of GHC and the Haskell toolstack when developing your zero knowledge applications.
 
 ### zkFold Symbolic Standard Library and Compiler
 Build zk-apps using our standard library and compile the code to arithmetic circuits.
@@ -31,4 +31,4 @@ Construct zero knowledge smart contract transactions using our set of transactio
 
 - Prove and verify the knowledge of a signed data structure matching some pattern
 
-- Prove and verify the presence of data matching your patterns in a collection of records
+- Prove and verify the presence of data matching your patterns in a collection of records -->
