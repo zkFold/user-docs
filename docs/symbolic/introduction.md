@@ -28,7 +28,7 @@ In zkFold Symbolic, developers implement zero knowledge programs, i.e. statement
 ### Support for the state-of-the-art ZKP protocols
 zkFold Symbolic comes with several state-of-the-art zero knowledge proof protocols and circuit construction techniques that work out of the box. Our team is constantly upgrading the existing codebase and adding support for the novel cryptographic primitives as new research comes out.
 
-## Use cases
+## Use Cases
 
 ### Large-scale dApps
 For decentralized applications with large transaction volumes, the cost of on-chain transactions can be a significant factor. Symbolic allows developers to create efficient zero knowledge smart contracts and effortlessly take advantage of various transaction batching techniques. This shortens the development cycle and leads to a significant cost reduction for the project and its users.
