@@ -1,4 +1,4 @@
-# Script Type Signature
+# Symbolic Smart Contract Type Signature
 
 All zkFold Symbolic smart contracts are Haskell pure functions of transaction data and some auxiliary data. This auxiliary data usually consists of private information available to the parties involved in the transaction. It does not need to be posted on the blockchain.
 
