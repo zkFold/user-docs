@@ -91,7 +91,8 @@ nav:
       - "Basics": symbolic/smart-contracts/basics.md
       - "Cardano":
         - "Cardano": symbolic/smart-contracts/cardano/index.md
-        - "Contract Type Signature": symbolic/smart-contracts/cardano/contract-type-signature.md
+        - "Plonk Verifier": symbolic/smart-contracts/cardano/plonk-verifier.md
+        - "Symbolic Verifier": symbolic/smart-contracts/cardano/symbolic-verifier.md
         - "Transactions": symbolic/smart-contracts/cardano/transactions.md
       - "Symbolic Ledger": symbolic/smart-contracts/symbolic-ledger.md
     - "Tools":
