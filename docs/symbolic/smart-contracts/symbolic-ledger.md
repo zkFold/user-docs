@@ -1,1 +1,1 @@
-# Symbolic L2 Ledger Type Library
+# ZK Smart Contracts on the Symbolic Ledger
