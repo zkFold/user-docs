@@ -1,1 +1,1 @@
-# Getting Started
+# Symbolic CLI
