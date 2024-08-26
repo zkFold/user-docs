@@ -12,7 +12,7 @@ Wallet instructions enables programming spending logic for the wallet UTxOs "on-
 ## Features
 
 ### Web2 Login
-The smart contract wallet backend enables spending of the wallet's UTxOs using Web2 authentification tokens. This feature enables seedless cryptocurrency wallets that simplifies the user experience for new Web3 users.
+The Smart Contract Wallet Backend enables spending of the wallet's UTxOs using Web2 authentification tokens. This feature enables cryptocurrency wallets without a seed phrase which simplify the user experience for new Web3 users.
 
 ### Babel Fees
 Babel fees are a way to pay for the transaction fees in a different token than the native token of the blockchain.
@@ -21,7 +21,7 @@ Babel fees are a way to pay for the transaction fees in a different token than t
 Sponsored transactions are a way for a third party to pay for the transaction fees of a user. The third party can be, for example, a wallet provider, a dApp, or a recipient of a payment.
 
 ### Multi-User Transactions
-Users of wallets based on the smart contract wallet backend can create multi-user transactions in a convenient asynchronous way where every user can sign their part of the transaction independently.
+Users of wallets based on the Smart Contract Wallet Backend can create multi-user transactions in a convenient asynchronous way where every user can sign their part of the transaction independently.
 
 ## APIs
 Smart Contract Wallet Backend provides two APIs: the standard CIP-30 Wallet API and the Symbolic Wallet API.
@@ -51,5 +51,4 @@ The Symbolic Wallet API provides the additional functionality that is specific t
 
 - `signInstruction`: Sign a wallet instruction.
 - `submitInstruction`: Submit a wallet instruction to the aggregation server.
-- `signInstructionInput`: Sign a wallet instruction input.
 - `submitInstructionInput`: Submit a wallet instruction input to the aggregation server.
