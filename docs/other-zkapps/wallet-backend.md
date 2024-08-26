@@ -24,7 +24,32 @@ Sponsored transactions are a way for a third party to pay for the transaction fe
 Users of wallets based on the smart contract wallet backend can create multi-user transactions in a convenient asynchronous way where every user can sign their part of the transaction independently.
 
 ## APIs
+Smart Contract Wallet Backend provides two APIs: the standard CIP-30 Wallet API and the Symbolic Wallet API.
 
 ### CIP-30 Wallet API
+The CIP-30 Wallet API is the standard wallet API that is implemented by most of the wallets in the Cardano ecosystem. The API is based on the Cardano Improvement Proposal 30 (CIP-30) and provides a set of functions for managing the wallet's UTxOs. The Smart Contract Wallet Backend implements the full CIP-30 Wallet API. Specifically, the API object provides the following methods:
+
+- `getExtensions`: Get the list of the enabled API extensions.
+- `getNetworkId`: Get the current network ID.
+- `getUtxos`: Get the list of the wallet's UTxOs.
+- `getCollateral`: Get the list of the wallet's collateral UTxOs.
+- `getBalance`: Get the balance of the wallet.
+- `getUsedAddresses`: Get the list of the wallet's used addresses.
+- `getUnusedAddresses`: Get the list of the wallet's unused addresses.
+- `getChangeAddress`: Get the wallet's change address.
+- `getRewardAddresses`: Get the list of the wallet's reward addresses.
+- `signTx`: Sign a transaction.
+- `signData`: Sign data.
+- `submitTx`: Submit a transaction to the blockchain.
+
+To create an API object from the Wallet Backend object, use the `cip30` function.
+
+You can find the full specification of the CIP-30 Wallet API [here](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0030).
 
 ### Symbolic Wallet API
+The Symbolic Wallet API provides the additional functionality that is specific to the Smart Contract Wallet Backend. The API object provides the following methods:
+
+- `signInstruction`: Sign a wallet instruction.
+- `submitInstruction`: Submit a wallet instruction to the aggregation server.
+- `signInstructionInput`: Sign a wallet instruction input.
+- `submitInstructionInput`: Submit a wallet instruction input to the aggregation server.
