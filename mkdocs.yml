@@ -107,6 +107,7 @@ nav:
       - "UPLC Converter": symbolic/tools/uplc-converter.md
   - "L2 Solutions":
     - "L2 Solutions": 'L2/index.md'
+    # - "Symbolic Ledger": 'L2/symbolic-ledger.md'
     - Rollup: 'L2/rollup.md'
     - Sidechain: 'L2/sidechain.md'
   - "Other zkApps":
