@@ -55,7 +55,7 @@ To create an API object from the Wallet Backend object, use the `cip30` function
 You can find the full specification of the CIP-30 Wallet API [here](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0030).
 
 ### Symbolic Wallet API
-The Symbolic Wallet API provides the additional functionality that is specific to the Smart Contract Wallet Backend. Below we cite the reference implementation of the Symbolic Wallet API in Haskell.
+The Symbolic Wallet API provides the additional functionality that is specific to the Smart Contract Wallet Backend. Below we give the reference implementation of the Symbolic Wallet API in Haskell.
 
 The following data types are used in the Symbolic Wallet API:
 
