@@ -83,7 +83,7 @@ Delay and force implement type abstraction and type application in UPLC. They ar
 (error)
 ```
 
-Unlike with other terms, the error term cannot be directly converted to an expression in a statically typed language, such as Haskell. For example, in UPLC it can be used as an argument to a function that expects an integer or a list making it impossible to assign a type to such expression. The explicit usage of the error term could be tricky as the UPLC program may output an unexpected result due to the fact that the evaluation order is not clear from the program representation in a high-level language such as Aiken or PlutusTx. Luckily for us, the only real purpose of this term is to save some execution units for the Plutus CEK machine. As a result, we prefer to explicitly forbid the usage of the error term in the convertible UPLC programs.
+Unlike with other terms, the error term cannot be directly converted to an expression in a statically typed language, such as Haskell. For example, in UPLC it can be used as an argument to a function that expects an integer or a list making it impossible to assign a type to such expression. The explicit usage of the error term is tricky for smart contract developers as the UPLC program may output an unexpected result due to the fact that the evaluation order is not clear from the program representation in a high-level language such as Aiken or PlutusTx. Luckily for us, the only real purpose of this term is to save some execution units for the Plutus CEK machine, which do not matter in the ZK smart contract verification. As a result, we prefer to explicitly forbid the usage of the error term in the convertible UPLC programs.
 
 ## CLI Commands
 
