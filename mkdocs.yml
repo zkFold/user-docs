@@ -44,7 +44,7 @@ theme:
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: white
+      primary: black
       accent:  orange
       toggle:
         icon: material/toggle-switch-off-outline
