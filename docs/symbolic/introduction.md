@@ -18,9 +18,7 @@ zkFold Symbolic compiler generally produces near-optimal arithmetic circuits fro
 ### Correct-by-construction arithmetic circuits
 Coding arithmetic circuits in a low-level language bears a significant probability of introducing errors that invalidate the security of the underlying business logic. This can be avoided by using zkFold Symbolic's standard type library as well as any custom types and functions defined on top of it. The developers can focus on the business logic of their application while the compiler takes care of the correctness of the arithmetic circuits.
 
-Additionally, zkFold Symbolic provides built-in tests for any user-generated function. In particular, the tests verify that the function and its circuit representation implement the same map from the inputs to the output.
-
-Finally, the zkFold Symbolic compiler is very compact, spanning just a few thousand lines of code, making it easy to audit.
+In addition, the zkFold Symbolic compiler is very compact, spanning just a few thousand lines of code, making it easy to audit.
 
 ### Low barrier to entry
 In zkFold Symbolic, developers implement zero knowledge programs, i.e. statements to prove and verify, as pure, polymorphic Haskell functions. The complementing zero knowledge proof protocols are provided as easy-to-use APIs. Thus, in-depth knowledge of the underlying cryptography is not required.

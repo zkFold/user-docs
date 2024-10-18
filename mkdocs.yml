@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 copyright: Copyright &copy; 2024 <a href="https://zkfold.io" target="_blank" rel="noopener">zkFold SA</a>
 site_name: "zkFold Products User Documentation"
 site_url: https://docs.zkfold.io
@@ -70,6 +71,8 @@ extra:
       lang: en
 
 markdown_extensions:
+  - admonition
+  - def_list
   - toc:
       permalink: true
       toc_depth: 3
@@ -82,6 +85,9 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+
+extra_css:
+  - stylesheets/extra.css
 
 extra_javascript:
   - javascripts/mathjax.js
