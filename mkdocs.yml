@@ -96,7 +96,10 @@ extra_javascript:
 plugins:
   - social
   - search
-
+  - redirects:
+      redirect_maps:
+        'index.md': 'about.md'
+        
 nav:
   - zkFold:
     - Products: 'products.md'
