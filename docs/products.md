@@ -4,6 +4,4 @@
 
 ## zkFold Rollup
 
-## zkFold Sidechain
-
 ## Other zkApps

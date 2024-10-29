@@ -123,11 +123,8 @@ nav:
       - "Symbolic CLI": symbolic/tools/cli.md
       - "Circom Converter": symbolic/tools/circom-converter.md
       - "UPLC Converter": symbolic/tools/uplc-converter.md
-  - "L2 Solutions":
-    - "L2 Solutions": 'L2/index.md'
-    # - "Symbolic Ledger": 'L2/symbolic-ledger.md'
-    - Rollup: 'L2/rollup.md'
-    - Sidechain: 'L2/sidechain.md'
+  - Rollup:
+    - Introduction: 'Rollup/introduction.md'
   - "Other zkApps":
     - "Other zkApps": other-zkapps/index.md
     - "Mithril Bridge": other-zkapps/mithril-bridge.md
