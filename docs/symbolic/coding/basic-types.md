@@ -1,3 +1,11 @@
+---
+title: "Basic types"
+description: "The basic types."
+author: "zkFold"
+date: "2024-11"
+PUBLIC: true
+---
+
 # Basic Types
 
 Here are some of the types from Symbolic Standard Library which you are most

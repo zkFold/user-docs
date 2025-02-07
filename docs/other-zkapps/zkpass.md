@@ -1,3 +1,11 @@
+---
+title: "zkpass"
+description: "The zkPass verifier on Cardano."
+author: "zkFold"
+date: "2024-10"
+PUBLIC: true
+---
+
 # zkPass Verifier on Cardano
 
 ## Overview

@@ -1,3 +1,11 @@
+---
+title: "Getting Started"
+description: "Getting started."
+author: "zkFold"
+date: "2024-11"
+PUBLIC: true
+---
+
 # Getting Started
 
 ## Symbolic Fundamentals
