@@ -1,3 +1,11 @@
+---
+title: "Smart Contract Wallet Backend"
+description: "The smart contract wallet backend."
+author: "zkFold"
+date: "2024-10"
+PUBLIC: true
+---
+
 # Smart Contract Wallet Backend
 
 ## Overview
