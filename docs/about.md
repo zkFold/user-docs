@@ -1,3 +1,11 @@
+---
+title: "About"
+description: "About zkFold."
+author: "zkFold"
+date: "2024-09"
+PUBLIC: true
+---
+
 # About zkFold
 
 zkFold is developing scaling solutions for blockchains, zero knowledge proof (ZKP) infrastructure and development tools. To achieve this goal, we use novel approaches to distributed system design and base our products on the state-of-the-art ZKP algorithms.

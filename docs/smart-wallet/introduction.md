@@ -1,21 +1,28 @@
 ---
-title: "Smart Contract Wallet Backend"
-description: "The smart contract wallet backend."
-author: "zkFold"
-date: "2024-10"
+title: "Smart Wallet"
+description: "An introduction to the Smart Contract Wallet Backend."
+author: "vlasin"
+date: "2025-03"
 PUBLIC: true
 ---
 
-# Smart Contract Wallet Backend
+# Smart Wallet
 
 ## Overview
 
-The Smart Contract Wallet Backend is an implementation of a programmable wallet with an extensible API and feature set that uses zkFold Symbolic framework. It includes all necessary components for a wallet application except the graphical user interface. The wallet backend is packaged as a WASM module that can be integrated into any browser-based wallet application.
+The Smart Contract Wallet Backend (_Smart Wallet_ for short) is a blockchain-agnostic programmable crypto wallet with an extensible feature set packed in a TypeScript library. The library provides a set of APIs to be used by wallet apps.
 
-## Wallet Instructions
+The key features of the Smart Wallet are:
+
+- Web2 Login
+- Babel Fees
+- Sponsored Transactions
+- Batch Transactions
+
+<!-- ## Wallet Instructions
 The smart contract wallet's extensible functionality is based on the idea of _wallet instructions_. A wallet instruction is a piece of code in the form of an arithmetic circuit that can be signed by the wallet owner. More specifically, a wallet instruction must be of the format that is used in the Symbolic Verifier. To spend a wallet UTxO, a Symbolic Verifier proof for _some_ wallet instruction must be verified on-chain.
 
-Wallet instructions enables programming spending logic for the wallet UTxOs "on-the-fly". For example, an atomic swap between two users can be performed in an asyncronous way and without any on-chain setup: both users can sign a _swap_ wallet instruction and send it to the order aggregator. Once the aggregator identifies a pair of instructions that can be matched against each other, it can submit the atomic swap transaction to the blockchain.
+Wallet instructions enables programming spending logic for the wallet UTxOs "on-the-fly". For example, an atomic swap between two users can be performed in an asyncronous way and without any on-chain setup: both users can sign a _swap_ wallet instruction and send it to the order aggregator. Once the aggregator identifies a pair of instructions that can be matched against each other, it can submit the atomic swap transaction to the blockchain. -->
 
 ## Features
 
@@ -34,12 +41,12 @@ Sponsored transactions are a way for a third party to pay for the transaction fe
 
 By submitting instructions to the aggregation server, the third party can sponsor the transaction fees of the user from their own funds. It is possible to set up various conditions for the sponsorship, such as the maximum amount of sponsored fees per transaction, the maximum number of transactions per day, etc.
 
-### Multi-User Transactions
+### Batch Transactions
 Users of wallets based on the Smart Contract Wallet Backend can create multi-user transactions in a convenient asynchronous way where every user can sign their part of the transaction independently.
 
 The aggregation server can collect the signed parts of the transaction from the users and submit the full transaction to the blockchain once all parts are collected. This feature is useful for atomic swaps, escrow transactions, and other multi-user transactions. It also helps in reducing the transaction fees for the users.
 
-## APIs
+<!-- ## APIs
 Smart Contract Wallet Backend provides two APIs: the standard CIP-30 Wallet API and the Symbolic Wallet API.
 
 ### CIP-30 Wallet API
@@ -92,4 +99,4 @@ submitInstructionInput :: Address -> InstructionId
     -> InstructionInput -> IO ()
 ```
 
-Submit a wallet instruction input to the aggregation server.
+Submit a wallet instruction input to the aggregation server. -->

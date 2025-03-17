@@ -1,3 +1,11 @@
+---
+title: "Symbolic Verifier"
+description: "Smart contracts with symbolic verifier."
+author: "zkFold"
+date: "2024-09"
+PUBLIC: true
+---
+
 # Smart Contracts with Symbolic Verifier
 
 ## Overview

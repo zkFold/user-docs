@@ -1,3 +1,11 @@
+---
+title: "Transactions"
+description: "Transactions with symbolic smart contracts."
+author: "zkFold"
+date: "2024-09"
+PUBLIC: true
+---
+
 # Transactions with Symbolic Smart Contracts
 
 ## Building Transactions

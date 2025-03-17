@@ -1,3 +1,11 @@
+---
+title: "Introduction to zkFold Symbolic"
+description: "Introduction to zkFold Symbolic."
+author: "zkFold"
+date: "2024-11"
+PUBLIC: true
+---
+
 # Introduction
 
 ## What is zkFold Symbolic?
