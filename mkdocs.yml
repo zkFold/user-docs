@@ -123,8 +123,10 @@ nav:
       - "Symbolic CLI": symbolic/tools/cli.md
       - "Circom Converter": symbolic/tools/circom-converter.md
       - "UPLC Converter": symbolic/tools/uplc-converter.md
-  - Rollup:
-    - Introduction: 'Rollup/introduction.md'
+  - smart-wallet:
+    - Introduction: 'smart-wallet/introduction.md'
+  - rollup:
+    - Introduction: 'rollup/introduction.md'
   - "Other zkApps":
     - "Other zkApps": other-zkapps/index.md
     - "Mithril Bridge": other-zkapps/mithril-bridge.md
