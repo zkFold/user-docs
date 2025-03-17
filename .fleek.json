@@ -1,6 +1,0 @@
-{
-  "build": {
-    "baseImage": "python:3.11",
-    "cmd": "pip install -r requirements.txt && mkdocs build"
-  }
-}

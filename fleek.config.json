@@ -1,9 +1,0 @@
-{
-  "sites": [
-    {
-      "slug": "some-jordan-long",
-      "distDir": "site",
-      "buildCommand": "pip install -r requirements.txt && mkdocs build"
-    }
-  ]
-}
